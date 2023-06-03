@@ -176,7 +176,7 @@ module.hot.accept(reloadCSS);
 "use strict";
 
 require("./styles.css");
-document.getElementById("app").innerHTML = "\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n</head>\n\n<body>\n    <h1>Hello world</h1>\n    <button id=\"my-button\"> Button </button>\n    <script src=\"src/basic.js\"></script>\n</body>";
+document.getElementById("app").innerHTML = "\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n</head>\n\n<body>\n    <h1>Hello world</h1>\n    <button id=\"my-button\"> Button </button>\n    <script src=\"js/basic.js\"></script>\n</body>";
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -202,7 +202,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43347" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33829" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

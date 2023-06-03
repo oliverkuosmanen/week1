@@ -10,5 +10,5 @@ document.getElementById("app").innerHTML = `
 <body>
     <h1>Hello world</h1>
     <button id="my-button"> Button </button>
-    <script src="src/basic.js"></script>
+    <script src="js/basic.js"></script>
 </body>`;
